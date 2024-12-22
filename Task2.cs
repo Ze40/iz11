@@ -15,6 +15,8 @@ namespace iz11
             List<HashSet<char>[]> results = obj.GetNamedPartitions(5).ToList();
 
             Console.WriteLine($"Всего разбиений: {results.Count}");
+
+            obj.WriteToFile("out.txt", results);
         }
     }
 }
