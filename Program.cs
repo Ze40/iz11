@@ -1,7 +1,9 @@
 ﻿namespace iz11
 {
-    class Task1
+    class Program
     {
+
+
         static void Main()
         {
 
