@@ -6,7 +6,19 @@
 
         static void Main()
         {
-            Task1 task1 = new Task1();
+            while (true) {
+                Console.WriteLine("Введите номер задания или q для выхода");
+                string key = Console.ReadLine();
+                if (key == null || key == "q" || key == "Q") break;
+                switch (key) {
+                    case "1":
+                        Task1 task1 = new Task1();
+                        break;
+                    case "2":
+                        Task2 task2 = new Task2();
+                        break;
+                }
+            }
         }
     }
 }
