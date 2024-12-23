@@ -32,6 +32,7 @@
                         Task7 task7 = new Task7();
                         break;
                     case "8":
+                        Task8 task8 = new Task8();
                         break;
                     case "9":
                         Task9 task9 = new Task9();
