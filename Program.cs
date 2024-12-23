@@ -28,6 +28,9 @@
                     case "6":
                         Task6 task6 = new Task6();
                         break;
+                    case "7":
+                        Task7 task7 = new Task7();
+                        break;
                     default:
                         Console.WriteLine("Нет такого задания");
                         break;
