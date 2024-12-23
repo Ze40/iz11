@@ -10,9 +10,9 @@ namespace iz11
     internal class Task6
     {
         public Task6() {
-            Comb comb = new Comb();
-            long c = comb.CountOfCombinations(10, 2);
-            Console.WriteLine(c);
+            Graphs graphs = new Graphs();
+            long answer = graphs.NumberOfConnectedGraphs(9);
+            Console.WriteLine($"Количество связных графов из 9 вершин: {answer}");
         }
     }
 }
